@@ -8,6 +8,13 @@ body {
 .hero {
   background-color: #1F2937;
   padding: 0 400px;;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .header {
@@ -26,7 +33,7 @@ body {
 }
 
 .hero li {
-  font-size: 16px;
+  font-size: 18px;
   flex: 1 0 1;
 }
 
@@ -46,7 +53,8 @@ body {
 }
 
 .hero button {
-  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   color: white;
   background-color: #3882F6;
   width: 130px;
@@ -64,8 +72,8 @@ body {
 
 .hero-photo {
   background-color: #545e6e;
-  width: 530px;
-  height: 230px;
+  width: 520px;
+  height: 235px;
 }
 
 .hero-container {
@@ -75,7 +83,8 @@ body {
 }
 
 .header-text {
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
   font-weight: bold;
   color: #1F2937;
   display: flex;
@@ -104,9 +113,84 @@ body {
   margin-top: 10px;
 }
 
-.logo {
-  color: #F9FAF8;
-  font-size: 24px;
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  height: 450px;
+  width: auto;
+  margin-top: 120px;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  width: 800px;
+}
+
+.another-text {
+  margin-left: 520px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.rectangular {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-self: center;
+  background-color: #3882F6;
+  width: 1000px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.rectangular-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.rectangular-text, .rectangular-subtext{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: 22px;
+  color: #F9FAF8;
+}
+
+.rectangular-subtext {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.rectangular-button {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.rectangular-button button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: #3882F6;
+  width: 130px;
+  height: 38px;
+  border-radius: 8px;
+  border: 2px #F9FAF8 solid;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 100px;
 }
